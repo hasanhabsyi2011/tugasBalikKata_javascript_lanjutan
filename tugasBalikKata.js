@@ -1,11 +1,11 @@
-function balikKata(str) {
- var currentString = str;
- var newString = '';
-		for (let i = str.length - 1; i >= 0; i--) {
-		  newString = newString + currentString[i];
+function balikKata(kata) {
+ var kataSkrg = kata;
+ var kataBaru = '';
+		for (let i = kata.length - 1; i >= 0; i--) {
+		  kataBaru = kataBaru + kataSkrg[i];
 		 }
 		 
-		 return newString;
+		 return kataBaru;
 	}
 console.log(balikKata("Niomic!"));    
 console.log(balikKata("JavaScript"));
